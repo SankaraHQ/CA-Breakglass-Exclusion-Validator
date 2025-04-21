@@ -44,7 +44,7 @@ The script:
 🔹 **Validate breakglass groups** : 
 
 ```
-.\PIM-AutoActivator.ps1 -TenantId "<your-tenant-guid>" -All
+.\CA-Breakglass-Exclusions-Validator.ps1 -TenantId "<tenant_guid>" -BreakGlassGroups "<group_displayName>"
 ```
 
 🔹 **Validate both breakglass user and group** :  
