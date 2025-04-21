@@ -34,13 +34,13 @@
     This PowerShell script verifies that specified breakglass users and groups are excluded from all Conditional Access policies in your Microsoft Entra ID tenant, ensuring uninterrupted emergency access.
 .EXAMPLE
     As a user, you may run this to validate if the specified breakglass user account is excluded from all conditional access policies.
-    PS C:\> .\CA-Breakglass-Exclusion-Validator.ps1 -TenantId "<tenant_guid>" -BreakGlassUsers "<user_mail_id>" 
+    PS C:\> .\CA-Breakglass-Exclusions-Validator.ps1 -TenantId "<tenant_guid>" -BreakGlassUsers "<user_mail_id>" 
 .EXAMPLE
     As a user, you may run this to validate if the specified breakglass group is excluded from all conditional access policies.
-    PS C:\> .\CA-Breakglass-Exclusion-Validator.ps1 -TenantId "<tenant_guid>" -BreakGlassGroups "<group_displayName>"
+    PS C:\> .\CA-Breakglass-Exclusions-Validator.ps1 -TenantId "<tenant_guid>" -BreakGlassGroups "<group_displayName>"
 .EXAMPLE
     As a user, you may run this to validate if the specified breakglass user and group is excluded from all conditional access policies.
-    PS C:\> .\CA-Breakglass-Exclusion-Validator.ps1 -TenantId "<tenant_guid>" -BreakGlassGroups "<user_mail_id>" -BreakGlassUsers "<group_displayName>"
+    PS C:\> .\CA-Breakglass-Exclusions-Validator.ps1 -TenantId "<tenant_guid>" -BreakGlassUsers "<user_mail_id>" -BreakGlassGroups "<group_displayName>"
 .NOTES
     - Either a breakglass user account or a breakglass group must be provided
 
