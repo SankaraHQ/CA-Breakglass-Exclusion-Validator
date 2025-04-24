@@ -38,7 +38,7 @@ The script:
 ## 🧪 Usage Examples
 🔹 **Validate breakglass user accounts** : 
 ```
-.\CA-Breakglass-Exclusions-Validator.ps1 -TenantId "<tenant_guid>" -BreakGlassUsers "<group_displayName>"
+.\CA-Breakglass-Exclusions-Validator.ps1 -TenantId "<tenant_guid>" -BreakGlassUsers "<user_mail_id>"
 ```
 
 🔹 **Validate breakglass groups** : 
