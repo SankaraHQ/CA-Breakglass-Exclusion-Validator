@@ -76,7 +76,7 @@ param (
 
 #Requires -Modules Microsoft.Graph
 
-Write-Host "Welcome to the Breakglass Exclusion Validator script!"
+Write-Host "`nWelcome to the Breakglass Exclusion Validator script!"
 
 if (-not $BreakGlassUsers -and -not $BreakGlassGroups) {
     Write-Host "At least one of the parameters -BreakGlassUsers or -BreakGlassGroups must be provided." -ForegroundColor Red
